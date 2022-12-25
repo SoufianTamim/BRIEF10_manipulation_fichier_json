@@ -2,7 +2,7 @@
   {
     "film": "Avatar",
     "director": "James Cameron",
-    "runtime": "162 min-F",
+    "runtime": 162,
     "year": "18 Dec 2009",
     "poster": "/images/avatar.jpg",
     "festivals": ["Gerardmer", "Grand Prize", "Hola2020", "Una Siamana"],
@@ -39,7 +39,7 @@
   {
     "film": "The Avengers",
     "director": "Joss Whedon",
-    "runtime": "143 min-F",
+    "runtime": 143 ,
     "year": "04 May 2012",
     "poster": "/images/avengers.jpg",
     "festivals": ["Fiesta", "Giron", "Acua Man", "Thor"],
@@ -70,7 +70,7 @@
   {
     "film": "The Wolf of Wall Street",
     "director": "Martin Scorsese",
-    "runtime": "180 min-F",
+    "runtime": 180 ,
     "year": "25 Dec 2013",
     "poster": "/images/wolf.jpg",
     "festivals": ["Commercials", "Intima", "Money Makers", "Kama"],
@@ -100,7 +100,7 @@
   {
     "film": "I Am Legend",
     "director": "Francis Lawrence",
-    "runtime": "101 min-S",
+    "runtime": 101 ,
     "year": "14 Dec 2007",
     "poster": "/images/legend.jpg",
     "festivals": ["Drama", "Action", "Science", "Execited"],
@@ -162,7 +162,7 @@
   {
     "film": "Vikings",
     "director": " Scott Kuhn",
-    "runtime": "44 min-S",
+    "runtime": 44 ,
     "year": "03 Mar 2013",
     "poster": "/images/vikings.jpg",
     "festivals": ["Love", "Scene", "Wonderfull", "Amazing"],
@@ -224,7 +224,7 @@
   {
     "film": "Power",
     "director": "Sidney Lumet",
-    "runtime": "50 min-S",
+    "runtime": 50 ,
     "year": "01 dec 2014",
     "poster": "/images/power.jpg",
     "festivals": ["Stars", "boolywood", "Angel", "Drama"],
@@ -255,7 +255,7 @@
   {
     "film": "Narcos",
     "director": "Series Writing",
-    "runtime": "49 min-S",
+    "runtime": 49 ,
     "year": "28 Aug 2015",
     "poster": "/images/narcos.jpg",
     "festivals": ["Scene", "Action", "Theme", "Riaf"],
@@ -286,7 +286,7 @@
   {
     "film": "Breaking Bad",
     "director": "George Gilligan ",
-    "runtime": "49 min-S",
+    "runtime": 49,
     "year": "20 Jan 2008",
     "poster": "/images/bed.jpg",
     "festivals": ["After", "Let Me", "Hind", "Wolf"],

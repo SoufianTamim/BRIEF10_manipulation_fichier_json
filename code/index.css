@@ -21,3 +21,6 @@ img{
 i:hover{
   color: green;
 }
+i{
+  padding-left: 10px;
+}

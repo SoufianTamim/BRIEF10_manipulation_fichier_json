@@ -1,3 +1,5 @@
+
+
 let myArray;
 
 
@@ -29,7 +31,7 @@ for (let i = 0; i < data.length; i++) {
    `<tr>
       <td>${data[i].film}</td>
       <td>${data[i].director}</td>
-      <td>${data[i].runtime}</td>
+      <td>${data[i].runtime + " "}<spanp>min</spanp></td>
       <td>${data[i].year}</td>
       <td><img src="${data[i].poster}" alt="Poster"></td>
       <td>
@@ -57,27 +59,4 @@ for (let i = 0; i < data.length; i++) {
     table.innerHTML += row;
 
   }
-}
-
-
-
-
-
-function sortUp() {
-
-
-  
-  document.getElementById("sortDown").style.display = "none"
-  document.getElementById("sortUp").style.display = "block";
-}
-
-
-function sortDown() {
-
-
-
-
-
-  document.getElementById("sortDown").style.display = "block";
-    document.getElementById("sortUp").style.display = "none";
 }
