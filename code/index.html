@@ -40,13 +40,13 @@
     <table class="table table-bordered table-hover table-responsive-md" id="myTable">
       <thead>
         <tr>
-          <th scope="col">Film<i class="fa-solid fa-sort" onclick="stringSort()"></i></th>
-          <th scope="col">Director<i class="fa-solid fa-sort"></i></th>
-          <th scope="col">Runtime<i class="fa-solid fa-sort"></i></th>
-          <th scope="col">Year<i class="fa-solid fa-sort"></i></th>
-          <th scope="col">Poster<i class="fa-solid fa-sort"></i></th>
-          <th scope="col">Festivals<i class="fa-solid fa-sort"></i></th>
-          <th scope="col">Actors<i class="fa-solid fa-sort"></i></th>
+          <th scope="col"     data-column="film"       data-order="desc"  onclick="sortTable(0)">  Film       <span>&#9650</span></th>
+          <th scope="col"     data-column="director"   data-order="desc"  onclick="sortTable(1)">  Director   <span>&#9650</span></th>
+          <th scope="col"     data-column="runtime"    data-order="desc"  onclick="sortTable(2)">  Runtime                          <span>&#9650</span></th>
+          <th scope="col"     data-column="year"       data-order="desc"  onclick="sortTable(3)">  Year                             <span>&#9650</span></th>
+          <th scope="col"                                                 >  Poster                                              </th>
+          <th scope="col"     data-column="festivals"  data-order="desc"  >  Festivals                                           </th>
+          <th scope="col"     data-column="actors"     data-order="desc"  >  Actors                                              </th>
         </tr>
       </thead>
       <tbody id="tBody"></tbody>

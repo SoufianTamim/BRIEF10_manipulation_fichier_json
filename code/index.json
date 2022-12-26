@@ -3,7 +3,7 @@
     "film": "Avatar",
     "director": "James Cameron",
     "runtime": 162,
-    "year": "18 Dec 2009",
+    "year": "18 12 2009",
     "poster": "/images/avatar.jpg",
     "festivals": ["Gerardmer", "Grand Prize", "Hola2020", "Una Siamana"],
     "actors": [
@@ -33,7 +33,7 @@
     "film": "The Avengers",
     "director": "Joss Whedon",
     "runtime": 143 ,
-    "year": "04 May 2012",
+    "year": "04 05 2012",
     "poster": "/images/avengers.jpg",
     "festivals": ["Fiesta", "Giron", "Acua Man", "Thor"],
     "actors": [
@@ -63,7 +63,7 @@
     "film": "The Wolf of Wall Street",
     "director": "Martin Scorsese",
     "runtime": 180 ,
-    "year": "25 Dec 2013",
+    "year": "25 12 2013",
     "poster": "/images/wolf.jpg",
     "festivals": ["Commercials", "Intima", "Money Makers", "Kama"],
     "actors": [
@@ -93,7 +93,7 @@
     "film": "I Am Legend",
     "director": "Francis Lawrence",
     "runtime": 101 ,
-    "year": "14 Dec 2007",
+    "year": "14 12 2007",
     "poster": "/images/legend.jpg",
     "festivals": ["Drama", "Action", "Science", "Execited"],
     "actors": [
@@ -122,8 +122,8 @@
   {
     "film": "Game of Thrones",
     "director": "Miguel Sapochenic",
-    "runtime": "56 min-S",
-    "year": "17 Apr 2011",
+    "runtime": 56,
+    "year": "17 04 2011",
     "poster": "/images/game.jpg",
     "festivals": ["Him", "Behind me", "Together", "Death"],
     "actors": [
@@ -153,7 +153,7 @@
     "film": "Vikings",
     "director": " Scott Kuhn",
     "runtime": 44 ,
-    "year": "03 Mar 2013",
+    "year": "03 03 2013",
     "poster": "/images/vikings.jpg",
     "festivals": ["Love", "Scene", "Wonderfull", "Amazing"],
     "actors": [
@@ -182,8 +182,8 @@
   {
     "film": "Gotham",
     "director": "Francis Lawrence",
-    "runtime": "42 min-S",
-    "year": "01 Aug 2014",
+    "runtime": 42,
+    "year": "01 08 2014",
     "poster": "/images/gotham.jpg",
     "festivals": ["Gotham", "Super", "High", "Scary"],
     "actors": [
@@ -213,7 +213,7 @@
     "film": "Power",
     "director": "Sidney Lumet",
     "runtime": 50 ,
-    "year": "01 dec 2014",
+    "year": "01 12 2014",
     "poster": "/images/power.jpg",
     "festivals": ["Stars", "boolywood", "Angel", "Drama"],
     "actors": [
@@ -243,7 +243,7 @@
     "film": "Narcos",
     "director": "Series Writing",
     "runtime": 49 ,
-    "year": "28 Aug 2015",
+    "year": "28 07 2015",
     "poster": "/images/narcos.jpg",
     "festivals": ["Scene", "Action", "Theme", "Riaf"],
     "actors": [
@@ -273,7 +273,7 @@
     "film": "Breaking Bad",
     "director": "George Gilligan ",
     "runtime": 49,
-    "year": "20 Jan 2008",
+    "year": "20 01 2008",
     "poster": "/images/bed.jpg",
     "festivals": ["After", "Let Me", "Hind", "Wolf"],
     "actors": [

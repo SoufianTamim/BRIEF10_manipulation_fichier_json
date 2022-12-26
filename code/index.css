@@ -25,11 +25,12 @@ img{
 #sortDown{
   display: none;
 }
-i:hover{
+span:hover{
   color: green;
 }
-i{
+span{
   padding-left: 10px;
+  cursor: pointer;
 }
 .d-flex{
   display: flex;
