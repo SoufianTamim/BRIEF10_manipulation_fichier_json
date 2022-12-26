@@ -6,30 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/code/index.css" />
     <link rel="shortcut icon" href="#" />
-    <script src="https://kit.fontawesome.com/c7a60e43cd.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <script
+      src="https://kit.fontawesome.com/c7a60e43cd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.css"
+    />
     <script src="/packages/jquery.js"></script>
-    <title>Movie Land</title>
+    <title class="fs-1">Movie Land</title>
   </head>
-
-
   <body>
     <header>
-      <i class="fa-solid fa-clapperboard fs-1 p-3 d-inline" ></i>
-      <p class="fs-3 d-inline" >Movie Land</p>
+      <i class="fa-solid fa-clapperboard fs-1 p-3 d-inline"></i>
+      <p class="fs-1 d-inline">Movie Land</p>
       <p class="d-flex justify-content-center">Welcome to Movie Land</p>
       <div class="d-flex justify-content-center">
-        <input type="text" placeholder="search a movie name" class="form-control w-25 d-inline" id="inputGroup-sizing-lg">
+        <input
+          type="text"
+          placeholder="search a movie name"
+          class="form-control d-inline w-50"
+        />
         <button class="btn btn-secondary d-inline">search</button>
       </div>
     </header>
-
-
-    <table class="table" id="myTable">
+    <table class="table table-bordered table-hover table-responsive-md" id="myTable">
       <thead>
         <tr>
-          <th scope="col">Film<i class="fa-solid fa-sort"></i></th>
+          <th scope="col">Film<i class="fa-solid fa-sort" onclick="stringSort()"></i></th>
           <th scope="col">Director<i class="fa-solid fa-sort"></i></th>
           <th scope="col">Runtime<i class="fa-solid fa-sort"></i></th>
           <th scope="col">Year<i class="fa-solid fa-sort"></i></th>
@@ -38,11 +49,8 @@
           <th scope="col">Actors<i class="fa-solid fa-sort"></i></th>
         </tr>
       </thead>
-      <tbody id="tBody">
-      </tbody>
-
+      <tbody id="tBody"></tbody>
     </table>
-
 
     <script src="/code/index.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>

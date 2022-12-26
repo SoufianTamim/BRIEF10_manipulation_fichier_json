@@ -3,10 +3,17 @@
   padding: 0;
   margin: 0;
   font-family: "Radio Canada";
+  font-size: 1rem;
+ 
 }
 header{
-  background-image: url("https://images.pexels.com/photos/9227672/pexels-photo-9227672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
-  height: 100vh;
+  background-image: url("https://wallpapercave.com/dwp2x/wp2081147.png");
+  height: 75vh;
+  color: white;
+}
+p{
+  font-size: 3rem;
+  padding:  5rem 0;
 }
 header div {
   display: block;
@@ -23,4 +30,8 @@ i:hover{
 }
 i{
   padding-left: 10px;
+}
+.d-flex{
+  display: flex;
+  align-items: center;
 }
