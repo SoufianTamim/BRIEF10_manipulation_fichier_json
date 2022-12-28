@@ -18,73 +18,45 @@ function getData() {  //  get data from the file and give it to th myArray varia
 
 getData();  // self invoke the function that gets the data  and asign it to the array
 
-/* */
-
 // build the function that builds the films data tables
 
 function buildTable(data) {
-
-	let table = document.getElementById("myTable"); // get the table id from html
-
+	let table = document.getElementById("tBody"); // get the table id from html
 	for (let i = 0; i < data.length; i++) {
-
-		let row1, row2;
+		let row = "" ;
 
 		//first row build
-		row1 =
-			`<tr>
-					 <td>${data[i].film}</td>
+		row +=
+			`<tr class='film'>
+					 <td class='FilmName'>${data[i].film}</td>
 					 <td>${data[i].director}</td>
 					 <td>${data[i].runtime + " "}<spanp>min</spanp></td>
 					 <td>${data[i].year}</td>
 						 <td>
 							 <img src="${data[i].poster}" alt="Poster">
 						 </td>
-						 ` +  				for (let j = 0; j < myArray[i].festivals.length; j++) {
+						 <td>  `  ; 		
 
-
-			row2 += `
-									<td>
-										<li>${data[i].festivals[j]} </li>
-									</td>
-		
-									<td>
-										<li>${data[i].actors[j].firstName + " " + data[i].actors[j].lastName + ' : ' + data[i].actors[j].nationality}</li>
-									</td>
-							</tr>`
+	for (let j = 0; j < myArray[i].festivals.length; j++) {
+			row += ` <li>${data[i].festivals[j]} </li> `
 		};
 
-		//second row build
+	row += 	`</td><td>`;
+		
+
+	for (let j = 0; j < myArray[i].actors.length; j++) {
 
 
+		row += ` <li>${data[i].actors[j].firstName + " " + data[i].actors[j].lastName + ' : ' + data[i].actors[j].nationality}</li> `
+	};
 
-
-		// la somme of th two rows
-		let row = row1
+	row += 	`</td></tr> `;
 
 		// creation of rows to apear in html
+
 		table.innerHTML += row;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -155,6 +127,16 @@ const NumberSort = () => {
 
 //===================================================   search function   =====================================================//
 
-const FilmSearch = () => {
+const searchInput = document.getElementById("search");
 
-}
+searchInput.addEventListener("keyup", function (event) {
+const rows = document.querySelectorAll("tbody tr");
+
+	const q = event.target.value.toLowerCase();
+
+	rows.forEach((row) => {
+		row.querySelector("td").textContent.toLowerCase().startsWith(q)
+			? (row.style.display = "table-row")
+			: (row.style.display = "none");
+	});
+});

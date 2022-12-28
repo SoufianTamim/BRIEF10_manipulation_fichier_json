@@ -36,3 +36,6 @@ span{
   display: flex;
   align-items: center;
 }
+li{
+  margin-left: 30px;
+}
