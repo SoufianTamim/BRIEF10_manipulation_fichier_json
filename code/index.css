@@ -22,13 +22,10 @@ header div {
 img{
   width: 4rem;
 }
-#sortDown{
-  display: none;
-}
-span:hover{
+i:hover{
   color: green;
 }
-span{
+i{
   padding-left: 10px;
   cursor: pointer;
 }
@@ -38,4 +35,7 @@ span{
 }
 li{
   margin-left: 30px;
+}
+#btn2, .btt{
+  display: none;
 }
