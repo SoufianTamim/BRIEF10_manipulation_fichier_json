@@ -24,17 +24,25 @@
     <table class="table table-bordered table-hover table-responsive-md" id="myTable">
       <thead>
         <tr>
-          <th scope="col" onclick="StringSort(0)">Film<span>&#9650</span></th>
-          <th scope="col" onclick="StringSort(1)">Director<span>&#9650</span></th>
-          <th scope="col">Runtime<span>&#9650</span></th>
-          <th scope="col">Year<span>&#9650</span></th>
+          <th scope="col" >Film
+            <i class="fa-solid fa-sort-up btt" onclick="StringSort(0)" ></i>
+            <i class="fa-solid fa-sort-down btt1"  onclick="StringSort(0)"></i>
+          </th>
+          <th scope="col" >Director
+            <i class="fa-solid fa-sort-up btt" onclick="StringSort(1)"></i>
+            <i class="fa-solid fa-sort-down btt1"  onclick="StringSort(1)"></i>
+          </th>
+          <th scope="col">Runtime
+            <i class="fa-solid fa-sort-up" id="btn1"></i>
+            <i class="fa-solid fa-sort-down" id="btn2"></i>
+          </th>
+          <th scope="col">Year</th>
           <th scope="col">Poster</th>
           <th scope="col">Festivals</th>
           <th scope="col">Actors</th>
         </tr>
       </thead>
-      <tbody id="tBody">
-      </tbody>
+      <tbody id="tBody"></tbody>
     </table>
     <script src="/code/index.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
