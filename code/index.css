@@ -36,6 +36,9 @@ i{
 li{
   margin-left: 30px;
 }
-#btn2, .btt{
+#btn2{
+  display: none;
+}
+.btt1{
   display: none;
 }
