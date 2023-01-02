@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/code/index.css" />
     <link rel="shortcut icon" href="#" />
@@ -13,6 +13,7 @@
     <title class="fs-1">Movie Land</title>
   </head>
   <body>
+<!-- =================================== header ========================================= -->
     <header>
       <i class="fa-solid fa-clapperboard fs-1 p-3 d-inline"></i>
       <p class="fs-1 d-inline">Movie Land</p>
@@ -21,20 +22,19 @@
     <input type="text" name="search" id="search" placeholder="Search..." class="form-control d-inline w-50"/>
       </div>
     </header>
+<!-- =================================== table ========================================= -->
     <table class="table table-bordered table-hover table-responsive-md" id="myTable">
       <thead>
         <tr>
           <th scope="col" >Film
             <i class="fa-solid fa-sort" onclick="StringSort(0)" ></i>
-
           </th>
           <th scope="col" >Director
             <i class="fa-solid fa-sort" onclick="StringSort(1)"></i>
           </th>
           <th scope="col">Runtime
-            <i class="fa-solid fa-sort-up " id="btn1"></i>
-            <i class="fa-solid fa-sort-down " id="btn2"></i>
-
+            <i class="fa-solid fa-sort-up" id="btn1"></i>
+            <i class="fa-solid fa-sort-down" id="btn2"></i>
           </th>
           <th scope="col">Year
             <i class="fa-solid fa-sort" onclick="StringSort(3)"></i>
@@ -46,7 +46,10 @@
       </thead>
       <tbody id="tBody"></tbody>
     </table>
+    
+    <!-- =================================== scripts links ========================================= -->
     <script src="/code/index.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
   </body>
 </html>
+
